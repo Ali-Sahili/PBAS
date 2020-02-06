@@ -14,28 +14,28 @@ In this project, I provide a simple implementation of PBAS algorithm using pytho
 
 
 ### Algorithm steps:			
-**1. Read a Video <br />
-**2. Apply gaussian Filter <br />
-**3. Split each frame into 3 channels <br />
-**4. Initilize the model with zeros or using a simple background substraction algorithm <br />
-**5. Excute algorithm for each channel in parallel <br />
-**6. Apply bitwise_or between 3 outputs or bitwise_and between 3 outputs <br />
-*7. repeat until end of this video <br />
+1. Read a Video <br />
+2. Apply gaussian Filter <br />
+3. Split each frame into 3 channels <br />
+4. Initilize the model with zeros or using a simple background substraction algorithm <br />
+5. Excute algorithm for each channel in parallel <br />
+6. Apply bitwise_or between 3 outputs or bitwise_and between 3 outputs <br />
+7. repeat until end of this video <br />
 
 
 ## Architecture of my project:
-- PBAS
- /   |
-  /  |-- PBAS-C++
-   / |     |
-    /|     |-- FeatureTracker.h
-    |     |-- FeatureTracker.cpp
-    |     |-- PBAS.h
-    |     |-- PBAS.cpp
-    |     |-- main.cpp
-    |
-    |-- PBAS-Python
-    |     |
-    |     |-- PBAS.py
-    |
+- PBAS <br />
+    | <br />
+    |-- PBAS-C++ <br />
+    |     | <br />
+    |     |-- FeatureTracker.h <br />
+    |     |-- FeatureTracker.cpp <br />
+    |     |-- PBAS.h <br />
+    |     |-- PBAS.cpp <br />
+    |     |-- main.cpp <br />
+    | <br />
+    |-- PBAS-Python <br />
+    |     | <br />
+    |     |-- PBAS.py <br />
+    | <br />
 
