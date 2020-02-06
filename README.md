@@ -14,13 +14,13 @@ In this project, I provide a simple implementation of PBAS algorithm using pytho
 
 
 ### Algorithm steps:			
- 1- Read a Video
- 2- Apply gaussian Filter
- 3- Split each frame into 3 channels
- 4- Initilize the model with zeros or using a simple background substraction algorithm
- 5- Excute algorithm for each channel in parallel
- 6- Apply bitwise_or between 3 outputs or bitwise_and between 3 outputs
- 7- repeat until end of this video
+** 1- Read a Video
+** 2- Apply gaussian Filter
+** 3- Split each frame into 3 channels
+** 4- Initilize the model with zeros or using a simple background substraction algorithm
+** 5- Excute algorithm for each channel in parallel
+** 6- Apply bitwise_or between 3 outputs or bitwise_and between 3 outputs
+** 7- repeat until end of this video
 
 
 ## Architecture of my project:
