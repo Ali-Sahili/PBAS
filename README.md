@@ -24,6 +24,7 @@ In this project, I provide a simple implementation of PBAS algorithm using pytho
 
 
 ## Architecture of my project:
+<pre>
 - PBAS <br />
     | <br />
     |-- PBAS-C++ <br />
@@ -38,4 +39,4 @@ In this project, I provide a simple implementation of PBAS algorithm using pytho
     |     | <br />
     |     |-- PBAS.py <br />
     | <br />
-
+</pre>
