@@ -33,7 +33,6 @@ In this project, I provide a simple implementation of PBAS algorithm using pytho
     |     |-- PBAS.cpp <br />
     |     |-- main.cpp <br />
     |-- PBAS-Python <br />
-    |     | <br />
     |     |-- PBAS.py <br />
     | <br />
 </pre>
