@@ -25,10 +25,10 @@ In this project, I provide a simple implementation of PBAS algorithm using pytho
 
 ## Architecture of my project:
 - PBAS
-    |
-    |-- PBAS-C++
-    |     |
-    |     |-- FeatureTracker.h
+ /   |
+  /  |-- PBAS-C++
+   / |     |
+    /|     |-- FeatureTracker.h
     |     |-- FeatureTracker.cpp
     |     |-- PBAS.h
     |     |-- PBAS.cpp
