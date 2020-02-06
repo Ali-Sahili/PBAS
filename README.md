@@ -6,6 +6,7 @@ This approach follows a nonparametric background modeling paradigm. Thus, the ba
 Foreground segmentation is one of moving object detection techniques of computer vision applications. To date, modern moving object detection methods require complex background modeling and thresholds tuning to confront illumination changes. This method is an adaptive approach based on non-overlapping block texture representation. It aims to design a computationally light and efficient solution to improve the robustness of detection.
 
 In this project, I provide a simple implementation of PBAS algorithm using python, also, I used an open-source implementation of c++ of this algorithm adding some post-processing modules and mask outputs.
+To test the code, change only the path of your dataset and be fun.
 
 ### Requirements:
 * opencv-3.0
@@ -34,5 +35,4 @@ In this project, I provide a simple implementation of PBAS algorithm using pytho
     |     |-- main.cpp <br />
     |-- PBAS-Python <br />
     |     |-- PBAS.py <br />
-    | <br />
 </pre>
